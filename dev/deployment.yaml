@@ -14,7 +14,7 @@ spec:
         app: webserver
     spec:
       containers:
-      - name: myapp
+      - name: webserver
         image: nginx:latest
         ports:
         - containerPort: 80
