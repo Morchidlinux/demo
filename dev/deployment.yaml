@@ -4,6 +4,7 @@ metadata:
   name: myapp
   labels: webserver
 spec:
+  replicas: 5
   selector:
     matchLabels:
       app: myapp
